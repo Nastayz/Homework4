@@ -8,7 +8,7 @@
 int [] CreatArray() {
     int [] Array = new int[8];
     Random rnd = new Random();              //выделяется адрес
-    for (int i=0; i < Array.Length; i++) {
+    for (int i = 0; i < Array.Length; i++) {
         Array[i] = rnd.Next();              //можно задать границы
     }
     return Array;
